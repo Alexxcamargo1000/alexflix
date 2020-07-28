@@ -32,7 +32,17 @@ export const ExtraLink = styled.a`
     margin-left: 0;
   }
 `;
+export const Text = styled.span`
+  margin-left: 16px;
+  text-decoration: none;
+  transition: opacity .3s;
 
+  @media (max-width: 800px) {
+    display: block;
+    margin-bottom: 16px;
+    margin-left: 0;
+  }
+`;
 export const VideoCardList = styled.ul`
   margin: 0;
   padding-left: 0;

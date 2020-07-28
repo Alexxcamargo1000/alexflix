@@ -11,35 +11,44 @@
       "videos": [
         {
           "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw",
+          "descricao":"oii eu sou a descrição"
         },
         {
           "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "url": "https://www.youtube.com/watch?v=c8mVlakBESE",
+          "descricao":"oii eu sou a descrição"
+          
         },
         {
           "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "url": "https://www.youtube.com/watch?v=LatCKpcOMak",
+          "descricao":"oii eu sou a descrição"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Carreira Front-end - Alura Live #18",
+          "url": "https://www.youtube.com/watch?v=Hyv5dY38Ep0",
+          "descricao":"oii eu sou a descrição"
         },
         {
           "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0",
+          "descricao":"oii eu sou a descrição"
         },
         {
           "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w",
+          "descricao":"oii eu sou a descrição"
         },
         {
           "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0",
+          "descricao":"oii eu sou a descrição"
         },
         {
           "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI",
+          "descricao":"oii eu sou a descrição"
         }        
       ]
     },
@@ -53,23 +62,28 @@
       "videos": [
         {
           "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM",
+          "descricao":"oii eu sou a descrição"
         },
         {
           "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY",
+          "descricao":"oii eu sou a descrição"
         },
         {
           "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY",
+          "descricao":"oii eu sou a descrição"
         },
         {
           "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk",
+          "descricao":"oii eu sou a descrição"
         }, 
         {
           "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "url": "https://www.youtube.com/watch?v=6OokP-NE49k",
+          "descricao":"oii eu sou a descrição"
         }
       ]
     },
@@ -83,19 +97,23 @@
       "videos": [
         {
           "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34",
+          "descricao":"oii eu sou a descrição"
         },
         {
           "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s",
+          "descricao":"oii eu sou a descrição"
         },
         {
           "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY",
+          "descricao":"oii eu sou a descrição"
         },
         {
           "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "url": "https://www.youtube.com/watch?v=gxyjGmOV540",
+          "descricao":"oii eu sou a descrição"
         }
       ]
     },
@@ -105,81 +123,174 @@
       "videos": [
         {
           "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E",
+          "descricao":"oii eu sou a descrição"
         },
         {
           "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs",
+          "descricao":"oii eu sou a descrição"
         },
         {
           "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "url": "https://www.youtube.com/watch?v=rNciXGzYZms",
+          "descricao":"oii eu sou a descrição"
         },
         {
           "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI",
+          "descricao":"oii eu sou a descrição"
         }
       ]
     },
     {
       "titulo": "Games",
-      "cor": "red",
+      "cor": "purple",
       "link_extra": {
         "text": "Formação de Jogos na Alura",
         "url": "https://www.alura.com.br/formacao-jogos-unity"
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "Marvel's Spider-Man: Miles Morales",
+          "url": "https://www.youtube.com/watch?v=gHzuHo80U2M",
+          "descricao":"oii eu sou a descrição"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "The Last of Us Part II - Trailer de Anúncio",
+          "url": "https://www.youtube.com/watch?v=v5J0Vo_iVs8",
+          "descricao":"oii eu sou a descrição"
         },
         {
           "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE",
+          "descricao":"oii eu sou a descrição"
         },
         {
           "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA",
+          "descricao":"oii eu sou a descrição"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "CONHEÇA O PEIXOTO REAL! - Fortnite",
+          "url": "https://www.youtube.com/watch?v=GVmub9dVfss&t=0s",
+          "descricao":"oii eu sou a descrição"
         }
       ]
     },
+
     {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      },
+      "titulo": "Filmes da marvel",
+      "cor": "#e62429",
+      "text":"Ordem correta de assisti os filmes da marvel",
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "Capitão América: O Primeiro Vingador (2011)",
+          "url": "https://www.youtube.com/watch?v=VyBS-UZVaNk",
+          "descricao":"oii eu sou a descrição"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "Capitã Marvel (2019)",
+          "url": "https://www.youtube.com/watch?v=4bMCzg-WBio",
+          "descricao":"oii eu sou a descrição"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Homem de Ferro (2008)",
+          "url": "https://www.youtube.com/watch?v=8ugaeA-nMTc",
+          "descricao":"oii eu sou a descrição"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "O Incrível Hulk (2008)",
+          "url": "https://www.youtube.com/watch?v=xbqNb2PFKKA",
+          "descricao":"oii eu sou a descrição"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "Homem de Ferro 2 (2010)",
+          "url": "https://www.youtube.com/watch?v=wKtcmiifycU",
+          "descricao":"oii eu sou a descrição"
+        },
+        {
+          "titulo": "Thor (2011)",
+          "url": "https://www.youtube.com/watch?v=vJUDu40Z_RY",
+          "descricao":"oii eu sou a descrição"
+        },
+        {
+          "titulo": "Os Vingadores (2012)",
+          "url": "https://www.youtube.com/watch?v=KeNEGtsCWEk",
+          "descricao":"oii eu sou a descrição"
+        },
+        {
+          "titulo": "Homem de Ferro 3 (2012)",
+          "url": "https://www.youtube.com/watch?v=igfXmU1r_mc",
+          "descricao":"oii eu sou a descrição"
+        },
+        {
+          "titulo": "Thor: O Mundo Sombrio (2013)",
+          "url": "https://www.youtube.com/watch?v=5sUfuOj7zOw",
+          "descricao":"oii eu sou a descrição"
+        },
+        {
+          "titulo": "Capitão América: O Soldado Invernal (2014)",
+          "url": "https://www.youtube.com/watch?v=7SlILk2WMTI",
+          "descricao":"oii eu sou a descrição"
+        },
+        {
+          "titulo": "Vingadores: Era de Ultron (2015)",
+          "url": "https://www.youtube.com/watch?v=Tg8hx9JKEZs",
+          "descricao":"oii eu sou a descrição"
+        },
+        {
+          "titulo": "Guardiões da Galáxia (2014)",
+          "url": "https://www.youtube.com/watch?v=8VN_l57QWyQ",
+          "descricao":"oii eu sou a descrição"
+        },
+        {
+          "titulo": "Guardiões da Galáxia Vol. 2 (2017) ",
+          "url": "https://www.youtube.com/watch?v=4-i8nTNSQFI",
+          "descricao":"oii eu sou a descrição"
+        },
+        {
+          "titulo": "Homem-Formiga (2015)",
+          "url": "https://www.youtube.com/watch?v=jbbJ5WoLc1I",
+          "descricao":"oii eu sou a descrição"
+        },
+        {
+          "titulo": "Viúva Negra (2020)",
+          "url": "https://www.youtube.com/watch?v=HmmrtZHgh6o",
+          "descricao":"oii eu sou a descrição"
+        },
+        {
+          "titulo": "Pantera Negra (2018)",
+          "url": "https://www.youtube.com/watch?v=wL4a4MafSjQ",
+          "descricao":"oii eu sou a descrição"
+        },
+        {
+          "titulo": "Doutor Estranho (2016)",
+          "url": "https://www.youtube.com/watch?v=HSzx-zryEgM",
+          "descricao":"oii eu sou a descrição"
+        },
+        {
+          "titulo": "Thor: Ragnarok (2017)",
+          "url": "https://www.youtube.com/watch?v=ue80QwXMRHg",
+          "descricao":"oii eu sou a descrição"
+        },
+        {
+          "titulo": "Homem-Formiga e a Vespa (2018)",
+          "url": "https://www.youtube.com/watch?v=J1cuts5Sm8g",
+          "descricao":"oii eu sou a descrição"
+        },
+        {
+          "titulo": "Vingadores: Guerra Infinita (2018)",
+          "url": "https://www.youtube.com/watch?v=3BXq73F2_z4",
+          "descricao":"oii eu sou a descrição"
+        },
+        {
+          "titulo": "Vingadores Ultimato (2019)",
+          "url": "https://www.youtube.com/watch?v=aZ-8GLLKImc",
+          "descricao":"oii eu sou a descrição"
         }
       ]
     }
+   
   ]
 }
