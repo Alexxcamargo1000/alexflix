@@ -21,10 +21,15 @@ function Home() {
         url={dadosIniciais.categorias[0].videos[0].url}
         videoDescription={"O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!"}
       /> */}
-       <BannerMain
+       {/* <BannerMain
         videoTitle={dadosIniciais.categorias[number].videos[number2].titulo}
         url={dadosIniciais.categorias[number].videos[number2].url}
         videoDescription={dadosIniciais.categorias[number].videos[number2].descricao}
+      /> */}
+      <BannerMain
+        videoTitle={dadosIniciais.categorias[4].videos[6].titulo}
+        url={dadosIniciais.categorias[4].videos[6].url}
+        videoDescription={dadosIniciais.categorias[4].videos[6].descricao}
       />
 
       <Carousel
