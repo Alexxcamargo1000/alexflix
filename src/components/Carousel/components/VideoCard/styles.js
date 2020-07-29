@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import {VideoTitle} from '../../styles'
 export const VideoCardContainer = styled.a`
   border: 2px solid;
   border-radius: 4px;
@@ -19,13 +19,26 @@ export const VideoCardContainer = styled.a`
   align-items: flex-end;
   padding: 16px;
 
-  transition: opacity .3s;
-  &:hover,
-  &:focus {
-    opacity: .5;
+  transition:  .3s;
+
+  &:hover span,
+  &:focus span{
+    opacity: 1
+
   }
+  &:hover ,
+  &:focus {
+    transform:scale(1.1);
+    border: 0;
+    border-radius:0;
+    opacity:0.8
+
+  }
+
+  
   
   &:not(:first-child) {
     margin-left: 20px;
   }
 `;
+
