@@ -77,4 +77,12 @@ export const VideoTitle = styled.span`
   text-shadow:#000 2px 2px 2px;
   width:80%;
   text-align:center;
+
+  @media (max-width: 800px){
+    opacity:1;
+    width:100%;
+    font-weight:700;
+    text-shadow:#000 4px;
+    text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px
+  }
 `;
