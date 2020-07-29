@@ -380,50 +380,6 @@
           "descricao":"oii eu sou a descrição"
         }
       ]
-    },
-    {
-    "titulo": "X-MEN",
-    "cor": "#616161",
-    "text":"Filmes dos X-MEN",
-
-    "videos": [
-      {
-        "titulo": "X-Men: O Filme",
-        "url": "https://www.youtube.com/watch?v=VNxwlx6etXI",
-        "descricao":"Eles são filhos do átomo superior, o próximo elo na corrente da evolução. Cada um nasceu com uma mutação genética rara, que na puberdade se manifestou em poderes extraordinários."
-      },
-      {
-        "titulo": "X-Men 2",
-        "url": "https://www.youtube.com/watch?v=luHcOYS1HxQ",
-        "descricao":"Stryker, um ex-comandante perverso do exército, tem a chave para o passado de Wolverine e o futuro dos X-Men. Esta ameaça reacende a chamada para um ato de registro mutante. "
-      },
-      {
-        "titulo": "X-Men: O Confronto Final",
-        "url": "https://www.youtube.com/watch?v=YlCEtoMusjY",
-        "descricao":"A descoberta de uma cura para as mutações leva os mutantes a um ponto decisivo. Eles podem escolher entre abandonar seus poderes e se tornarem humanos ou continuar com os poderes e permanecerem excluídos. "
-      },
-      {
-        "titulo": "X-Men: Primeira Classe",
-        "url": "https://www.youtube.com/watch?v=kyQKi5-k0UU",
-        "descricao":"No início dos anos 1960, durante o auge da Guerra Fria, um mutante chamado Charles Xavier conhece um mutante chamado Erik Lehnsherr."
-      },
-      {
-        "titulo": "X-Men: Dias de um Futuro Esquecido",
-        "url": "https://www.youtube.com/watch?v=I0qeADYfl4k",
-        "descricao":"Convencido de que os mutantes são uma ameaça para a humanidade, o Dr. Bolivar Trask desenvolve os Sentinelas, gigantescos robôs, que os perseguem impiedosamente."
-      },
-      {
-        "titulo": "X-Men: Apocalypse",
-        "url": "https://www.youtube.com/watch?v=3vYpPwBKJ28",
-        "descricao":"O primeiro mutante destruidor do mundo, Apocalipse, está de volta disposto a acabar com a humanidade. Professor Xavier conta com Mística, Fera e Mercúrio, além de novos alunos, para impedir o vilão."
-      },
-      {
-        "titulo": "X-Men: Fênix Negra",
-        "url": "https://www.youtube.com/watch?v=xrbBVIpssDQ",
-        "descricao":"Jean Grey começa a desenvolver incríveis poderes que a corrompem e a transformam em uma Fênix Negra. Agora, os X-Men precisam decidir se a vida de um membro da equipe vale mais do que todas as pessoas do mundo."
-      }
-    ]
-  }
-   
+    }   
   ]
 }
