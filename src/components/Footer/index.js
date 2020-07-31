@@ -14,6 +14,13 @@ function Footer() {
           Imersão React da Alura
         </a>
       </p>
+      <p>
+        Feito por Alex Camargo
+        {' '}
+        <a href="https://github.com/Alexxcamargo1000">
+         GitHub
+        </a>
+      </p>
     </FooterBase>
   );
 }

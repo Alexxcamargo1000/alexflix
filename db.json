@@ -1,0 +1,16 @@
+{
+    "categoria":[
+        {
+            "id":1,
+            "nome": "filme",
+            "descricao": "descrição",
+            "cor": "#000"
+        },
+        {
+            "id":2,
+            "nome": "video",
+            "descricao": "descrição",
+            "cor": "#000"
+        }
+    ]
+}
