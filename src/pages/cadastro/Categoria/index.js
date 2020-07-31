@@ -25,22 +25,36 @@ function CadastroCategoria() {
   function hendleChange(info) {
     setValue(info.target.getAttribute('name'), info.target.value);
   }
+
   useEffect(() => {
-    if (window.location.href.includes('localhost')) {
-      const URL = 'http://localhost:3001/categoria';
-      fetch(URL)
-        .then(async (respostaDoServer) => {
-          if (respostaDoServer.ok) {
-            const resposta = await respostaDoServer.json();
-            setCategorias([
-              ...resposta,
-            ]);
-            return;
-          }
-          throw new Error('Não foi possível pegar os dados');
-        });
-    }
-  }, []);
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:3001/categoria'
+      : 'https://heroflix.herokuapp.com/categoria';
+
+    fetch(URL)
+      .then(async (respostaDoServer) => {
+        const resposta = await respostaDoServer.json();
+        setCategorias([
+          ...resposta,
+        ]);
+      });
+  });
+  // useEffect(() => {
+  //   if (window.location.href.includes('localhost')) {
+  //     const URL = 'http://localhost:3001/categoria';
+  //     fetch(URL)
+  //       .then(async (respostaDoServer) => {
+  //         if (respostaDoServer.ok) {
+  //           const resposta = await respostaDoServer.json();
+  //           setCategorias([
+  //             ...resposta,
+  //           ]);
+  //           return;
+  //         }
+  //         throw new Error('Não foi possível pegar os dados');
+  //       });
+  //   }
+  // }, []);
 
   return (
     <PageDefault>
