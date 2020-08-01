@@ -10,7 +10,7 @@ function CadastroCategoria() {
   const valoresIniciais = {
     nome: '',
     descricao: '',
-    cor: '#000',
+    cor: '#000000',
   };
   const [categorias, setCategorias] = useState([]);
   const [values, setValues] = useState(valoresIniciais);
@@ -26,35 +26,35 @@ function CadastroCategoria() {
     setValue(info.target.getAttribute('name'), info.target.value);
   }
 
-  useEffect(() => {
-    const URL = window.location.hostname.includes('localhost')
-      ? 'http://localhost:3001/categoria'
-      : 'https://heroflix.herokuapp.com/categoria';
-
-    fetch(URL)
-      .then(async (respostaDoServer) => {
-        const resposta = await respostaDoServer.json();
-        setCategorias([
-          ...resposta,
-        ]);
-      });
-  });
   // useEffect(() => {
-  //   if (window.location.href.includes('localhost')) {
-  //     const URL = 'http://localhost:3001/categoria';
-  //     fetch(URL)
-  //       .then(async (respostaDoServer) => {
-  //         if (respostaDoServer.ok) {
-  //           const resposta = await respostaDoServer.json();
-  //           setCategorias([
-  //             ...resposta,
-  //           ]);
-  //           return;
-  //         }
-  //         throw new Error('Não foi possível pegar os dados');
-  //       });
-  //   }
-  // }, []);
+  //   const URL = window.location.hostname.includes('localhost')
+  //     ? 'http://localhost:8080/categoria'
+  //     : 'https://heroflix.herokuapp.com/categoria';
+
+  //   fetch(URL)
+  //     .then(async (respostaDoServer) => {
+  //       const resposta = await respostaDoServer.json();
+  //       setCategorias([
+  //         ...resposta,
+  //       ]);
+  //     });
+  // });
+  useEffect(() => {
+    if (window.location.href.includes('localhost')) {
+      const URL = 'http://localhost:8080/categoria';
+      fetch(URL)
+        .then(async (respostaDoServer) => {
+          if (respostaDoServer.ok) {
+            const resposta = await respostaDoServer.json();
+            setCategorias([
+              ...resposta,
+            ]);
+            return;
+          }
+          throw new Error('Não foi possível pegar os dados');
+        });
+    }
+  }, []);
 
   return (
     <PageDefault>
@@ -98,33 +98,15 @@ function CadastroCategoria() {
           onChange={hendleChange}
         />
 
-        {/* <div>
-        <label>
-          cor:
-          <input
-            type="color"
-            value={values.cor}
-            name="cor"
-            onChange={hendleChange}
-          />
-        </label>
-        </div> */}
-        {/*
-        {categorias.length === 0(
-          <div>
-            loading..
-          </div>,
-        )} */}
-
         <Button>
           Cadastrar
         </Button>
       </form>
 
       <ul>
-        {categorias.map((categoria, indice) => (
+        {categorias.map((categoria) => (
 
-          <li key={`${categoria}${indice}`}>
+          <li key={`${categoria.nome}`}>
 
             {categoria.nome}
 

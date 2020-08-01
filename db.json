@@ -2,9 +2,9 @@
     "categoria":[
         {
             "id":1,
-            "nome": "filme",
-            "descricao": "descrição",
-            "cor": "#000"
+            "nome": "Filmes da DC",
+            "descricao": "Universo Extendido D",
+            "cor": "#0c3578"
         },
         {
             "id":2,
