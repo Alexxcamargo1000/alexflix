@@ -1,8 +1,8 @@
 {
   "categorias": [
     {
+      "id": "1",
       "titulo": "Filmes da DC",
-      "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#0c3578",
       "text":"Universo Extendido DC",
 
@@ -56,6 +56,7 @@
       ]
     },
     {
+      "id": "2",
       "titulo": "Mais da DC",
       "cor": "#3c0757",
       "text":"filmes que não fazem parte do universo da DC",

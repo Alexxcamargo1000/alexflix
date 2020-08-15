@@ -1,16 +1,532 @@
 {
-    "categoria":[
-        {
-            "id":1,
-            "nome": "Filmes da DC",
-            "descricao": "Universo Extendido D",
-            "cor": "#0c3578"
-        },
-        {
-            "id":2,
-            "nome": "video",
-            "descricao": "descrição",
-            "cor": "#000"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Filmes da DC",
+      "descricao": "Universo Extendido DC",
+      "cor": "#0c3578"
+    },
+    {
+      "id": 2,
+      "titulo": "Mais da DC",
+      "descricao": "filmes que não fazem parte do universo da DC",
+      "cor": "#3c0757"
+    },
+    {
+      "id": 3,
+      "titulo": "Series da DC",
+      "descricao": "Series que fazem parte da DC",
+      "cor": "#074457"
+    },
+    {
+      "id": 4,
+      "titulo": "Animação da DC",
+      "descricao": "Universo de filmes animados da DC Comics",
+      "cor": "#570723"
+    },
+    {
+      "id": 5,
+      "titulo": "X-MEN",
+      "descricao": "Filmes dos X-MEN",
+      "cor": "#616161"
+    },
+    {
+      "id": 6,
+      "titulo": "Filmes Marvel",
+      "descricao": "Filmes do Universo Marvel",
+      "cor": "#e62429"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Mulher-Maravilha",
+      "url": "https://www.youtube.com/watch?v=tqfOtQ5auBA",
+      "descricao": "Treinada desde cedo para ser uma guerreira imbatível, Diana Prince nunca saiu da paradisíaca ilha em que é reconhecida como princesa das Amazonas. "
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Mulher-Maravilha",
+      "url": "https://www.youtube.com/watch?v=tqfOtQ5auBA",
+      "descricao": "Treinada desde cedo para ser uma guerreira imbatível, Diana Prince nunca saiu da paradisíaca ilha em que é reconhecida como princesa das Amazonas. "
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": " O Homem de Aço",
+      "url": "https://www.youtube.com/watch?v=Bgi8Ud7IJJ4",
+      "descricao": "Com a iminente destruição de Krypton, seu planeta natal, Jor-El e sua mulher procuram preservar a raça enviando o filho recém-nascido para a Terra. A nave espacial da criança aterrissa na fazenda de Jonathan e Martha Kent, que o batizam de Clark e o criam como seu próprio filho."
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Batman vs Superman: A Origem da Justiça",
+      "url": "https://www.youtube.com/watch?v=IHDgrNxO-5I",
+      "descricao": "O confronto entre Superman e Zod em Metrópolis fez a população mundial se dividir sobre a presença de extraterrestres na Terra. Enquanto muitos consideram Superman um novo deus, há aqueles que entendem ser extremamente perigosa a existência de um ser tão poderoso sem qualquer tipo de controle."
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Esquadrão Suicida",
+      "url": "https://www.youtube.com/watch?v=8pYp4T8TdP4",
+      "descricao": "Um time dos mais perigosos e encarcerados supervilões são contratados por uma agência secreta do governo, para combater uma poderosa entidade. No entanto, quando eles percebem que não foram escolhidos apenas para ter sucesso, mas também por sua óbvia culpa quando inevitavelmente falharem, terão que decidir se vale a pena ou não continuar correndo risco de morte."
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Liga da Justiça",
+      "url": "https://www.youtube.com/watch?v=H0Z7ewOXCKw",
+      "descricao": "Impulsionado pela restauração de sua fé na humanidade e inspirado pelo ato altruísta do Superman, Bruce Wayne convoca sua nova aliada Diana Prince para o combate contra um inimigo ainda maior, recém-despertado."
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Aquaman",
+      "url": "https://www.youtube.com/watch?v=WDkg3h8PCVU",
+      "descricao": "A cidade de Atlantis, que já foi lar de uma das mais avançadas civilizações do mundo, agora é um reino submerso dominado pelo ganancioso Rei Orm."
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Shazam",
+      "url": "https://www.youtube.com/watch?v=SJjg4ZTkCzk",
+      "descricao": "Billy Batson tem apenas 14 anos de idade, mas recebeu de um antigo mago o dom de se transformar em um super-herói adulto chamado Shazam. "
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Aves de Rapina",
+      "url": "https://www.youtube.com/watch?v=M2LMRXkAZSY",
+      "descricao": "Depois de se aventurar com o Coringa, Arlequina se junta a Canário Negro, Caçadora e Renee Montoya para salvar a vida de uma garotinha do criminoso Máscara Negra em Gotham City."
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Batman Begins",
+      "url": "https://www.youtube.com/watch?v=qHhHIbNuok8",
+      "descricao": "O jovem Bruce Wayne viaja para o Extremo Oriente, onde recebe treinamento em artes marciais do mestre Henri Ducard, um membro da misteriosa Liga das Sombras."
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Batman - O Cavaleiro das Trevas",
+      "url": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+      "descricao": "Com a ajuda de Jim Gordon e Harvey Dent, Batman tem mantido a ordem na cidade de Gotham. Mas um jovem e anárquico criminoso conhecido como Coringa ganha força e decide instaurar um verdadeiro caos na cidade."
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Batman - O Cavaleiro das Trevas Ressurge",
+      "url": "https://www.youtube.com/watch?v=q8ncjHylG6c",
+      "descricao": "Após ser culpado pela morte de Harvey Dent e passar de herói a vilão, Batman desaparece. As coisas mudam com a chegada de uma ladra misteriosa, a Mulher-Gato, e Bane, um terrorista mascarado, que fazem Batman abandonar seu exílio forçado."
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Watchmen",
+      "url": "https://www.youtube.com/watch?v=wglmbroElU0",
+      "descricao": "Um de seus antigos colegas é assassinado, e o vigilante mascarado Rorschach decide investigar um plano para matar e desacreditar todos os super-heróis do passado e do presente."
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Lanterna Verde",
+      "url": "https://www.youtube.com/watch?v=_axLoYlwwmU",
+      "descricao": "Hal Jordan, um vaidoso piloto de testes, recebe um poderoso anel e é recrutado por um esquadrão intergaláctico chamado Lanterna Verde para lutar contra um feroz inimigo que ameaça acabar com o equilíbrio do universo."
+    },
+    {
+      "id": 14,
+      "categoriaId": 2,
+      "titulo": "Superman - O Retorno",
+      "url": "https://www.youtube.com/watch?v=bRqAUqAFhNw",
+      "descricao": "O Superman volta à Terra depois de cinco anos passados no planeta Krypton, precisando reconquistar o amor de Lois Lane e descobre que o novo plano de Lex Luthor pode ameaçar a vida de bilhões de pessoas."
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "The Flash",
+      "url": "https://www.youtube.com/watch?v=Yj0l7iGKh8g",
+      "descricao": "Acompanhe as aventuras do homem mais veloz do planeta, o cientista da Central City Police Barry Allen, que após um trágico acidente adquire o poder da velocidade."
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Arrow",
+      "url": "https://www.youtube.com/watch?v=-Ar8hbGDzuc",
+      "descricao": "Após um violento naufrágio, o playboy milionário Oliver Queen é dado como morto. Cinco anos depois, é resgatado de uma ilha do Pacífico e enviado de volta para Starling City, onde passa a agir como vigilante secreto."
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Supergirl",
+      "url": "https://www.youtube.com/watch?v=49RZx5tUKM4",
+      "descricao": "Kara Zor-El escapou de seu planeta quando tinha 12 anos de idade. Desde que chegou à Terra, ela conseguiu esconder seus poderes, os quais compartilha com seu primo, o Super-Homem."
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "Legends of Tomorrow",
+      "url": "https://www.youtube.com/watch?v=fdoi9uyEFPM",
+      "descricao": "Após ter visto o futuro, o viajante do tempo Rip Hunter recebe a missão de montar um grupo eclético de heróis e vilões para confrontar uma ameaça invencível - uma que não somente põe em risco o planeta, mas também o tempo."
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "Batwoman",
+      "url": "https://www.youtube.com/watch?v=XZoLzXIunPM",
+      "descricao": "Kate Kane segue os passos de seu primo desaparecido, Bruce Wayne, e protege as ruas de Gotham City como Batwoman."
+    },
+    {
+      "id": 20,
+      "categoriaId": 3,
+      "titulo": "Titans",
+      "url": "https://www.youtube.com/watch?v=iH44Z0QwrWQ",
+      "descricao": "Titans é uma série de televisão americana criada por Akiva Goldsman, Geoff Johns e Greg Berlanti para a DC Universe. Baseado na equipe Novos Titãs, da DC Comics, a série mostra um grupo de jovens heróis que unem suas forças na luta contra o mal."
+    },
+    {
+      "id": 21,
+      "categoriaId": 3,
+      "titulo": "Raio Negro",
+      "url": "https://www.youtube.com/watch?v=3LAUGA01mUc",
+      "descricao": "Black Lightning é uma série de televisão americana desenvolvida por Salim Akil. É baseada no personagem Raio Negro, da DC Comics. A série é ambientado no Universo Arrow, o universo compartilhado da DC Comics na TV da The CW."
+    },
+    {
+      "id": 22,
+      "categoriaId": 3,
+      "titulo": "Patrulha do Destino",
+      "url": "https://www.youtube.com/watch?v=6tTM9nbRk5A",
+      "descricao": "Parte grupo de apoio e parte equipe de super-heróis, a Patrulha do Destino é uma turma de desajustados que adquiriu superpoderes e luta para salvar um mundo que não quer ter nada a ver com eles."
+    },
+    {
+      "id": 23,
+      "categoriaId": 4,
+      "titulo": "Liga da Justiça: Ponto de Ignição ",
+      "url": "https://www.youtube.com/watch?v=2_uZn7mxnts",
+      "descricao": "Barry Allen acorda em uma linha do tempo alternativa, mais tarde conhecida como Flashpoint, onde ele não é o Flash e conhece Thomas Wayne, que é o Batman da linha do tempo. Enquanto ele trabalha para restaurar sua antiga linha do tempo, Barry também deve lutar com o Professor Zoom, que parece estar por trás de tudo."
+    },
+    {
+      "id": 24,
+      "categoriaId": 4,
+      "titulo": "Liga da Justiça Guerra",
+      "url": "https://www.youtube.com/watch?v=q3F9ASSsHUk",
+      "descricao": "Durante uma investigação em Gotham City,Batman encontra Lanterna Verde que, juntos, descobrem uma Caixa Mãe que pede a Superman para atacar a dupla. Mais tarde, eles encontram Mulher Maravilha,  Flash, Cyborg e Shazam para se unir e enfrentar a ameaça de Darkseid"
+    },
+    {
+      "id": 25,
+      "categoriaId": 4,
+      "titulo": "O Filho do Batman",
+      "url": "https://www.youtube.com/watch?v=68QW02BAu78",
+      "descricao": "O filme mostra Batman conhecendo o seu filho Damian Wayne, e enquanto ele tenta se relacionar com ele, os dois tem que juntos enfrentar o Exterminador, que quer matar Damian e assumir o lugar de Ra's Al Ghul na Liga dos Assassinos."
+    },
+    {
+      "id": 26,
+      "categoriaId": 4,
+      "titulo": "Liga da Justiça: O Trono de Atlântida",
+      "url": "https://www.youtube.com/watch?v=donPLB1xaBw",
+      "descricao": "Quando os guerreiros atlantes atacam uma tripulação submarina, Arthur Curry / Aquaman deve se unir à Liga da Justiça para impedir seu irmão, Orm Marius / Mestre do oceano, responsável pelo ataque, e que também planeja roubar o trono de Atlântida para si mesmo, a fim de causar um guerra contra a superfície."
+    },
+    {
+      "id": 27,
+      "categoriaId": 4,
+      "titulo": "Batman vs Robin",
+      "url": "https://www.youtube.com/watch?v=RzM835MUcaU",
+      "descricao": "Sequência de O Filho do Batman, Batman vs Robin foi lançado em 7 de abril de 2015 e traz a Corte das Corujas como os vilões. Na trama Damian conhece o Garra, um serviçal da organização conhecida como Corte das Corujas cujo modus operandi é semelhante ao da Liga dos Assassinos, o que faz com que Damian se deixa levar pela influência do Garra. Tal atitude faz Damian entrar em conflito com seu pai."
+    },
+    {
+      "id": 28,
+      "categoriaId": 4,
+      "titulo": "Batman: Sangue Ruim",
+      "url": "https://www.youtube.com/watch?v=honMCo_2HqE",
+      "descricao": "Sequência de Batman vs Robin, Batman: Sangue Ruim foi lançado em 20 de janeiro de 2016 e apresenta uma história original. Na trama, após Bruce Wayne desaparecer, Dick Grayson, o Asa Noturna, decide se tornar o Batman temporariamente. Ele, Damian e os novos aliados Batwoman e Batwing irão se unir para deter uma nova ameaça que está surgindo e salvar Bruce."
+    },
+    {
+      "id": 29,
+      "categoriaId": 4,
+      "titulo": "Liga da Justiça vs Jovens Titãs",
+      "url": "https://www.youtube.com/watch?v=dFjg3oNxaJ4",
+      "descricao": "Após fracassar em uma missão com a Liga da Justiça, Damian é enviado para os Jovens Titãs para aprender a como a trabalhar em equipe. Enquanto ele é treinado pelo grupo, o demônio Trigon domina a Liga da Justiça e pretende dominar o mundo também, e agora a única esperança são os Jovens Titãs."
+    },
+    {
+      "id": 30,
+      "categoriaId": 4,
+      "titulo": "Liga da Justiça Sombria ",
+      "url": "https://www.youtube.com/watch?v=H1kzDHnUvAQ",
+      "descricao": "A trama mostra Batman reunindo John Constantine, Zatanna e Desafiador para juntos deterem uma invasão sobrenatural."
+    },
+    {
+      "id": 31,
+      "categoriaId": 4,
+      "titulo": "Jovens Titãs: O Contrato de Judas",
+      "url": "https://www.youtube.com/watch?v=GIeoysdR8AQ",
+      "descricao": "Os Titãs ganham um novo membro da equipe, Terra, que parece ter segundas intenções ao enfrentar o mercenário, Slade Wilson / Exterminador, e um culto terrorista liderado pelo Irmão Sangue."
+    },
+    {
+      "id": 32,
+      "categoriaId": 4,
+      "titulo": "Esquadrão Suicida: Acerto de Contas ",
+      "url": "https://www.youtube.com/watch?v=qgtlBTI60E8",
+      "descricao": "Após descobrir que irá morrer, Amanda Waller envia o Esquadrão Suicida em uma missão para obter um artefato que irá salvar a vida dela, mas enquanto o Esquadrão está em busca desse artefato, Vandal Savage e Eobard Thawne também estão."
+    },
+    {
+      "id": 33,
+      "categoriaId": 4,
+      "titulo": "A Morte do Superman",
+      "url": "https://www.youtube.com/watch?v=J5aMJ1qMgA8",
+      "descricao": "Um asteroide atravessa a atmosfera e cai no oceano trazendo com ele uma força imbatível chamada Apocalipse. Com vidas inocentes ameaçadas e Metropolis sob ataque, Batman e Mulher-Maravilha correm para enfrentar essa ameaça."
+    },
+    {
+      "id": 34,
+      "categoriaId": 4,
+      "titulo": "Constantine: Cidade dos Demônios",
+      "url": "https://www.youtube.com/watch?v=Tgujmtdj_3c",
+      "descricao": "Quando Trish entra em um misterioso coma com indícios de magia negra, Chas recorre a John Constantine, que interrompe sua rotina de ressacas para ajudar a salvar a alma da filha seu grande amigo. "
+    },
+    {
+      "id": 35,
+      "categoriaId": 4,
+      "titulo": "Reinado do Superman ",
+      "url": "https://www.youtube.com/watch?v=HlC7veaQizk",
+      "descricao": "O mundo lamenta a morte do Homem de Aço e, enquanto isso, surgem novos heróis, cada um alegando ser o verdadeiro Superman renascido. Os poderes de todos são testados quando uma ameaça mortal atinge a Terra."
+    },
+    {
+      "id": 36,
+      "categoriaId": 4,
+      "titulo": "Batman: Silêncio ",
+      "url": "https://www.youtube.com/watch?v=PvxlpQTfArM",
+      "descricao": "O passado de Batman começa a se desenrolar e se inicia uma corrida para o Cavaleiro das Trevas solucionar os jogos mortais do silêncio."
+    },
+    {
+      "id": 37,
+      "categoriaId": 4,
+      "titulo": "Mulher Maravilha: Linhagem de Sangue",
+      "url": "https://www.youtube.com/watch?v=PPcd_cAwLl0",
+      "descricao": "Ela assume a missão de ajudar uma jovem garota problemática que foi recrutada por uma organização mortal conhecida como Corporação Vilania, cujos membros criminosos almejam invadir Themyscira, o lar paradisíaco de nossa heroína. A batalha será épica, porque se há uma coisa que as Amazonas conhecem bem é a guerra!"
+    },
+    {
+      "id": 38,
+      "categoriaId": 4,
+      "titulo": "Liga da Justiça Sombria: A Guerra de Apokolips",
+      "url": "https://www.youtube.com/watch?v=F6FdamDMbW0",
+      "descricao": "A Liga da Justiça sempre foi a primeira e última defesa da Terra, mas, com a chegada iminente de Darkseid, tudo está para mudar. Após a destruição da Terra, o grupo se reune para derrubar o tirano e salvar os membros remanescentes da equipe."
+    },
+    {
+      "id": 39,
+      "categoriaId": 5,
+      "titulo": "X-Men: O Filme",
+      "url": "https://www.youtube.com/watch?v=VNxwlx6etXI",
+      "descricao": "Eles são filhos do átomo superior, o próximo elo na corrente da evolução. Cada um nasceu com uma mutação genética rara, que na puberdade se manifestou em poderes extraordinários."
+    },
+    {
+      "id": 40,
+      "categoriaId": 5,
+      "titulo": "X-Men 2",
+      "url": "https://www.youtube.com/watch?v=luHcOYS1HxQ",
+      "descricao": "Stryker, um ex-comandante perverso do exército, tem a chave para o passado de Wolverine e o futuro dos X-Men. Esta ameaça reacende a chamada para um ato de registro mutante. "
+    },
+    {
+      "id": 41,
+      "categoriaId": 5,
+      "titulo": "X-Men: O Confronto Final",
+      "url": "https://www.youtube.com/watch?v=YlCEtoMusjY",
+      "descricao": "A descoberta de uma cura para as mutações leva os mutantes a um ponto decisivo. Eles podem escolher entre abandonar seus poderes e se tornarem humanos ou continuar com os poderes e permanecerem excluídos. "
+    },
+    {
+      "id": 42,
+      "categoriaId": 5,
+      "titulo": "X-Men: Primeira Classe",
+      "url": "https://www.youtube.com/watch?v=kyQKi5-k0UU",
+      "descricao": "No início dos anos 1960, durante o auge da Guerra Fria, um mutante chamado Charles Xavier conhece um mutante chamado Erik Lehnsherr."
+    },
+    {
+      "id": 43,
+      "categoriaId": 5,
+      "titulo": "X-Men: Dias de um Futuro Esquecido",
+      "url": "https://www.youtube.com/watch?v=I0qeADYfl4k",
+      "descricao": "Convencido de que os mutantes são uma ameaça para a humanidade, o Dr. Bolivar Trask desenvolve os Sentinelas, gigantescos robôs, que os perseguem impiedosamente."
+    },
+    {
+      "id": 44,
+      "categoriaId": 5,
+      "titulo": "X-Men: Apocalypse",
+      "url": "https://www.youtube.com/watch?v=3vYpPwBKJ28",
+      "descricao": "O primeiro mutante destruidor do mundo, Apocalipse, está de volta disposto a acabar com a humanidade. Professor Xavier conta com Mística, Fera e Mercúrio, além de novos alunos, para impedir o vilão."
+    },
+    {
+      "id": 45,
+      "categoriaId": 5,
+      "titulo": "X-Men: Fênix Negra",
+      "url": "https://www.youtube.com/watch?v=xrbBVIpssDQ",
+      "descricao": "Jean Grey começa a desenvolver incríveis poderes que a corrompem e a transformam em uma Fênix Negra. Agora, os X-Men precisam decidir se a vida de um membro da equipe vale mais do que todas as pessoas do mundo."
+    },
+    {
+      "id": 46,
+      "categoriaId": 6,
+      "titulo": "Capitão América: O Primeiro Vingador",
+      "url": "https://www.youtube.com/watch?v=VyBS-UZVaNk",
+      "descricao": "Steve Rogers é um jovem que participa de experiências visando a criação do supersoldado americano. Quando os oficiais militares conseguem transformá-lo em uma arma humana, eles percebem que não podem arriscar a vida do jovem nas batalhas de guerra."
+    },
+    {
+      "id": 47,
+      "categoriaId": 6,
+      "titulo": "Capitã Marvel",
+      "url": "https://www.youtube.com/watch?v=4bMCzg-WBio",
+      "descricao": "Capitã Marvel, parte do exército de elite dos Kree, uma raça alienígena, encontra-se no meio de uma batalha entre seu povo e os Skrulls."
+    },
+    {
+      "id": 48,
+      "categoriaId": 6,
+      "titulo": "Homem de Ferro",
+      "url": "https://www.youtube.com/watch?v=8ugaeA-nMTc",
+      "descricao": "Tony Stark é um industrial bilionário e inventor brilhante que realiza testes bélicos no exterior, mas é sequestrado por terroristas que o forçam a construir uma arma devastadora. "
+    },
+    {
+      "id": 49,
+      "categoriaId": 6,
+      "titulo": "O Incrível Hulk",
+      "url": "https://www.youtube.com/watch?v=xbqNb2PFKKA",
+      "descricao": "O cientista Bruce Banner se esconde no Brasil enquanto busca desesperadamente a cura da mutação que o transforma em um monstro incontrolável. "
+    },
+    {
+      "id": 50,
+      "categoriaId": 6,
+      "titulo": "Homem de Ferro 2",
+      "url": "https://www.youtube.com/watch?v=wKtcmiifycU",
+      "descricao": "m um mundo ciente da existência do Homem de Ferro, o inventor bilionário Tony Stark sofre pressão de todos os lados para compartilhar sua tecnologia com as forças armadas."
+    },
+    {
+      "id": 51,
+      "categoriaId": 6,
+      "titulo": "Thor",
+      "url": "https://www.youtube.com/watch?v=vJUDu40Z_RY",
+      "descricao": "Como filho de Odin, rei dos deuses nórdicos, Thor logo herdará o trono de Asgard de seu idoso pai. Porém, no dia de sua coroação, Thor reage com brutalidade quando os inimigos dos deuses entram no palácio violando o tratado. "
+    },
+    {
+      "id": 52,
+      "categoriaId": 6,
+      "titulo": "Os Vingadores",
+      "url": "https://www.youtube.com/watch?v=KeNEGtsCWEk",
+      "descricao": "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes."
+    },
+    {
+      "id": 53,
+      "categoriaId": 6,
+      "titulo": "Homem de Ferro 3",
+      "url": "https://www.youtube.com/watch?v=igfXmU1r_mc",
+      "descricao": "Depois de um inimigo reduzir o mundo de Tony Stark a destroços, o Homem de Ferro precisa aprender a confiar em seus instintos para proteger aqueles que ama, especialmente sua namorada, e lutar contra seu maior medo: o fracasso."
+    },
+    {
+      "id": 54,
+      "categoriaId": 6,
+      "titulo": "Thor: O Mundo Sombrio (2013)",
+      "url": "https://www.youtube.com/watch?v=5sUfuOj7zOw",
+      "descricao": "Thor precisa contar com a ajuda de seus companheiros e até de seu traiçoeiro irmão Loki em um plano audacioso para salvar o universo. Entretanto, os caminhos de Thor se cruzam com Jane Foster e, dessa vez, a vida dela está realmente em perigo."
+    },
+    {
+      "id": 55,
+      "categoriaId": 6,
+      "titulo": "Capitão América: O Soldado Invernal",
+      "url": "https://www.youtube.com/watch?v=7SlILk2WMTI",
+      "descricao": "Após os eventos catastróficos em Nova York com Os Vingadores, Steve Rogers, também conhecido como Capitão América, segue tentando se ajustar ao mundo moderno. Porém, quando um colega da agência S.H.I.E.L.D. é atacado, Steve se vê preso em uma rede de intrigas que ameaça colocar o mundo em risco."
+    },
+    {
+      "id": 56,
+      "categoriaId": 6,
+      "titulo": "Vingadores: Era de Ultron",
+      "url": "https://www.youtube.com/watch?v=Tg8hx9JKEZs",
+      "descricao": "Ao tentar proteger o planeta de ameaças, Tony Stark constrói um sistema de inteligência artificial que cuidaria da paz mundial. O projeto acaba dando errado e gera o nascimento do Ultron."
+    },
+    {
+      "id": 57,
+      "categoriaId": 6,
+      "titulo": "Guardiões da Galáxia",
+      "url": "https://www.youtube.com/watch?v=8VN_l57QWyQ",
+      "descricao": "O aventureiro do espaço Peter Quill torna-se presa de caçadores de recompensas depois que rouba a esfera de um vilão traiçoeiro, Ronan. Para escapar do perigo, ele faz uma aliança com um grupo de quatro extraterrestres. "
+    },
+    {
+      "id": 58,
+      "categoriaId": 6,
+      "titulo": "Guardiões da Galáxia Vol. 2",
+      "url": "https://www.youtube.com/watch?v=4-i8nTNSQFI",
+      "descricao": "Os Guardiões precisam lutar para manter sua recém descoberta família unida, enquanto descobrem os mistérios sobre o verdadeiro pai de Peter Quill."
+    },
+    {
+      "id": 59,
+      "categoriaId": 6,
+      "titulo": "Homem-Formiga",
+      "url": "https://www.youtube.com/watch?v=jbbJ5WoLc1I",
+      "descricao": "Forçado a sair de sua própria empresa, Dr. Hank Pym transforma um talentoso ladrão em Homem-Formiga para impedir que seu antigo pupilo consiga replicar a fórmula da roupa que dá o poder do encolhimento, força sobre-humana e a capacidade de controlar um exército de formigas."
+    },
+    {
+      "id": 60,
+      "categoriaId": 6,
+      "titulo": "Capitão América: Guerra Civil ",
+      "url": "https://www.youtube.com/watch?v=FRLYZn5PGuA",
+      "descricao": "O ataque de Ultron faz com que os políticos decidam controlar os Vingadores, já que seus atos afetam toda a humanidade. Tal decisão coloca o Capitão América em rota de colisão com o Homem de Ferro."
+    },
+    {
+      "id": 61,
+      "categoriaId": 6,
+      "titulo": "Viúva Negra [indisponivel]",
+      "url": "https://www.youtube.com/watch?v=HmmrtZHgh6o",
+      "descricao": "Em Viúva Negra, após seu nascimento, Natasha Romanoff (Scarlett Johansson) é dada à KGB, que a prepara para se tornar sua agente definitiva. Quando a URSS rompe, o governo tenta matá-la enquanto a ação se move para a atual Nova York, onde ela trabalha como freelancer."
+    },
+    {
+      "id": 62,
+      "categoriaId": 6,
+      "titulo": "Pantera Negra",
+      "url": "https://www.youtube.com/watch?v=wL4a4MafSjQ",
+      "descricao": "Conheça a história de T'Challa, príncipe do reino de Wakanda, que perde o seu pai e viaja para os Estados Unidos, onde tem contato com os Vingadores."
+    },
+    {
+      "id": 63,
+      "categoriaId": 6,
+      "titulo": "Homem-Aranha: De Volta ao Lar",
+      "url": "https://www.youtube.com/watch?v=2x-2iYxgMFU",
+      "descricao": "Depois de atuar ao lado dos Vingadores, chegou a hora do pequeno Peter Parker voltar para casa e para a sua vida, já não mais tão normal. "
+    },
+    {
+      "id": 64,
+      "categoriaId": 6,
+      "titulo": "Doutor Estranho",
+      "url": "https://www.youtube.com/watch?v=HSzx-zryEgM",
+      "descricao": "Após sua carreira ser destruída, um brilhante, porém arrogante, cirurgião ganha uma nova chance em sua vida quando um feiticeiro o treina para se tornar o Mago Supremo."
+    },
+    {
+      "id": 65,
+      "categoriaId": 6,
+      "titulo": "Thor: Ragnarok",
+      "url": "https://www.youtube.com/watch?v=ue80QwXMRHg",
+      "descricao": "Após anos afastado, Thor retorna para casa e descobre que seu pai Odin, rei de Asgard, está desaparecido. Após encontra-lo, ele toma conhecimento de sua irmã mais velha, Hela, a poderosa e implacável deusa da morte. "
+    },
+    {
+      "id": 66,
+      "categoriaId": 6,
+      "titulo": "Homem-Formiga e a Vespa)",
+      "url": "https://www.youtube.com/watch?v=J1cuts5Sm8g",
+      "descricao": "Scott Lang lida com as consequências de suas escolhas tanto como super-herói quanto como pai. Enquanto tenta reequilibrar sua vida com suas responsabilidades como o Homem-Formiga, ele é confrontado por Hope van Dyne e Dr. Hank Pym com uma nova missão urgente.o"
+    },
+    {
+      "id": 67,
+      "categoriaId": 6,
+      "titulo": "Vingadores: Guerra Infinita",
+      "url": "https://www.youtube.com/watch?v=3BXq73F2_z4",
+      "descricao": "Homem de Ferro, Thor, Hulk e os Vingadores se unem para combater seu inimigo mais poderoso, o maligno Thanos. Em uma missão para coletar todas as seis pedras infinitas, Thanos planeja usá-las para infligir sua vontade maléfica sobre a realidade."
+    },
+    {
+      "id": 68,
+      "categoriaId": 6,
+      "titulo": "Vingadores Ultimato",
+      "url": "https://www.youtube.com/watch?v=aZ-8GLLKImc",
+      "descricao": "Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco."
+    },
+    {
+      "id": 69,
+      "categoriaId": 6,
+      "titulo": "Homem-Aranha: Longe de Casa",
+      "url": "https://www.youtube.com/watch?v=cq9ftzfxa7Y",
+      "descricao": "Peter Parker está em uma viagem de duas semanas pela Europa, ao lado de seus amigos de colégio, quando é surpreendido pela visita de Nick Fury."
+    }
+  ]
 }

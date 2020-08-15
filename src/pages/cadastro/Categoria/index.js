@@ -3,46 +3,25 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 
 // import { Container } from './styles';
 
+
 function CadastroCategoria() {
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '#000000',
   };
+  const { hendleChange, values, clearForm } = useForm(valoresIniciais);
+
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
 
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor,
-    });
-  }
-
-  function hendleChange(info) {
-    setValue(info.target.getAttribute('name'), info.target.value);
-  }
-
-  // useEffect(() => {
-  //   const URL = window.location.hostname.includes('localhost')
-  //     ? 'http://localhost:8080/categoria'
-  //     : 'https://heroflix.herokuapp.com/categoria';
-
-  //   fetch(URL)
-  //     .then(async (respostaDoServer) => {
-  //       const resposta = await respostaDoServer.json();
-  //       setCategorias([
-  //         ...resposta,
-  //       ]);
-  //     });
-  // });
   useEffect(() => {
     const URL = window.location.hostname.includes('localhost')
-      ? 'http://localhost:8080/categoria'
-      : 'https://heroflix.herokuapp.com/categoria';
+      ? 'http://localhost:8080/categorias'
+      : 'https://heroflix.herokuapp.com/categorias';
     fetch(URL)
       .then(async (respostaDoServer) => {
         if (respostaDoServer.ok) {
@@ -61,7 +40,7 @@ function CadastroCategoria() {
     <PageDefault>
       <h1>
         Cadastro de Categoria:
-        {values.nome}
+        {values.titulo}
       </h1>
 
       <form onSubmit={function handleSubmit(info) {
@@ -72,14 +51,14 @@ function CadastroCategoria() {
           values,
         ]);
 
-        setValues(valoresIniciais);
+        clearForm();
       }}
       >
         <FormField
           label="Nome da categoria"
-          name="nome"
+          name="titulo"
           type="text"
-          value={values.nome}
+          value={values.titulo}
           onChange={hendleChange}
         />
 
@@ -107,9 +86,9 @@ function CadastroCategoria() {
       <ul>
         {categorias.map((categoria) => (
 
-          <li key={`${categoria.nome}`}>
+          <li key={`${categoria.titulo}`}>
 
-            {categoria.nome}
+            {categoria.titulo}
 
           </li>
         ))}
